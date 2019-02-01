@@ -1,8 +1,14 @@
-FROM node:10-alpine
-RUN npm install -g serve
-RUN npm install && \
-    npm run test && \
-    npm run build
+FROM node:10-alpine as react-build
 
-EXPOSE 7723
-CMD ["serve", "-s build"]
+WORKDIR /app
+COPY . ./
+RUN yarn
+RUN yarn test
+RUN yarn build
+
+
+FROM nginx:alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=react-build /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

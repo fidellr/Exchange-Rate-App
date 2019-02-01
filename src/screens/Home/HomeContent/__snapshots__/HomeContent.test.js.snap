@@ -44,7 +44,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
   >
     <div
       className="u-border1 u-borderColorGray u-borderRadius2"
-      key="rateCard-SGD-0.7937902985051908-0"
+      key="rateCard-SGD-0.8786105735941141-0"
     >
       <_default
         baseCurrency="USD"
@@ -56,7 +56,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
     </div>
     <div
       className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
-      key="rateCard-PLN-0.0874492972291796-1"
+      key="rateCard-PLN-0.9482590948689531-1"
     >
       <_default
         baseCurrency="USD"
@@ -68,7 +68,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
     </div>
     <div
       className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
-      key="rateCard-RUB-0.29711032249396996-2"
+      key="rateCard-RUB-0.522197074232398-2"
     >
       <_default
         baseCurrency="USD"
@@ -80,7 +80,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
     </div>
   </div>
   <_default
-    className="homePage-bottomInputContainer u-border1 u-borderColorGray u-flex u-justifyContentSpaceBetween u-fontSize14 u-marginHorizontal16"
+    className="homePage-bottomInputContainer u-border1 u-borderColorGray u-flex u-justifyContentSpaceBetween u-fontSize14 u-marginHorizontal16 u-backgroundColorWhite u-marginBottom16"
   >
     <div
       className="u-cursorPointer u-padding10 u-flex"

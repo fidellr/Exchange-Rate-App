@@ -2,7 +2,7 @@
 
 exports[`Dropdown should render 3 dropdown items 1`] = `
 <div
-  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1"
+  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1 u-marginBottom16 u-backgroundColorWhite"
 >
   <div
     className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
@@ -30,7 +30,7 @@ exports[`Dropdown should render 3 dropdown items 1`] = `
 
 exports[`Dropdown should render dropdown item in gray color for the selectedItem 1`] = `
 <div
-  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1"
+  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1 u-marginBottom16 u-backgroundColorWhite"
 >
   <div
     className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
