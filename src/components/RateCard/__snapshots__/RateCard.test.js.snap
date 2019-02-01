@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RateCard should render converted abbreviation of currency that passed through props and the abbreviation too 1`] = `
+<_default
+  className="rateCard-wrapper u-flex u-justifyContentSpaceBetween u-backgroundColorWhite"
+>
+  <div
+    className="rateCard-details u-sizeFullWidth u-padding4"
+  >
+    <div
+      className="rateCard-detailHeader u-flex u-justifyContentSpaceBetween"
+    >
+      <p
+        className="u-margin0 u-fontSize16"
+      >
+        SGD
+      </p>
+      <p
+        className="u-margin0 u-fontSize16"
+      >
+        NaN
+      </p>
+    </div>
+    <p
+      className="u-margin0 u-fontSize12 u-fontWeight7 u-marginVertical4"
+    >
+      SGD-Singapore Dollar
+    </p>
+    <p
+      className="u-margin0 u-fontSize12 u-fontWeight7 u-marginVertical4"
+    >
+      1 
+       = 
+      SGD
+       
+    </p>
+  </div>
+  <div
+    className="rateCard-button u-width50 u-borderLeftColorGray1 u-relative"
+  >
+    <div
+      className="deleteButton u-cursorPointer u-absolute u-top0 u-bottom0 u-right0 u-left0 u-backgroundSizeCover u-backgroundNoRepeat u-size24 u-marginAuto"
+      style={
+        Object {
+          "backgroundImage": "url(remove.svg)",
+        }
+      }
+    />
+  </div>
+</_default>
+`;

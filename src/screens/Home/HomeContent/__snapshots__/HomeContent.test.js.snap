@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeContent should fill selectedRates as the default data that passed from props by its parent 1`] = `
+<div
+  className="homePage-container u-relative u-paddingBottom10 u-backgroundColorGray"
+>
+  <div
+    className="homePage-header u-boxShadowBottom u-zIndex7 u-fixed u-padding16 u-backgroundColorWhite"
+  >
+    <i
+      className="u-fontSize14"
+    >
+      USD
+       - 
+      United States Dollar
+    </i>
+    <div
+      className="u-flex u-justifyContentSpaceBetween u-marginTop6 u-marginBottom0"
+    >
+      <h3
+        className="u-margin0"
+      >
+        USD
+      </h3>
+      <CurrencyInput
+        allowNegative={false}
+        autoFocus={false}
+        className="currencyInput u-outlineNone u-textAlignRight u-backgroundColorWhite"
+        decimalSeparator="."
+        inputType="text"
+        onChange={[Function]}
+        onChangeEvent={[Function]}
+        precision="4"
+        prefix=""
+        selectAllOnFocus={false}
+        suffix=""
+        thousandSeparator=","
+        value={10}
+      />
+    </div>
+  </div>
+  <div
+    className="homePage-content u-paddingTop90 u-paddingBottom10 u-paddingHorizontal16"
+  >
+    <div
+      className="u-border1 u-borderColorGray u-borderRadius2"
+      key="rateCard-SGD-0.7937902985051908-0"
+    >
+      <_default
+        baseCurrency="USD"
+        currentBaseValue={10}
+        onRemove={[Function]}
+        rateName="SGD"
+        rateNumber={11.2213}
+      />
+    </div>
+    <div
+      className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
+      key="rateCard-PLN-0.0874492972291796-1"
+    >
+      <_default
+        baseCurrency="USD"
+        currentBaseValue={10}
+        onRemove={[Function]}
+        rateName="PLN"
+        rateNumber={22.21134}
+      />
+    </div>
+    <div
+      className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
+      key="rateCard-RUB-0.29711032249396996-2"
+    >
+      <_default
+        baseCurrency="USD"
+        currentBaseValue={10}
+        onRemove={[Function]}
+        rateName="RUB"
+        rateNumber={33.99823}
+      />
+    </div>
+  </div>
+  <_default
+    className="homePage-bottomInputContainer u-border1 u-borderColorGray u-flex u-justifyContentSpaceBetween u-fontSize14 u-marginHorizontal16"
+  >
+    <div
+      className="u-cursorPointer u-padding10 u-flex"
+      onClick={[Function]}
+    >
+      <div
+        className="addMore-icon u-backgroundNoRepeat u-backgroundSizeCover u-size24 u-marginAuto"
+        style={
+          Object {
+            "background": "url(add.svg)",
+          }
+        }
+      />
+      <div
+        className="addMore-text u-marginAuto u-paddingLeft10"
+      >
+        Add More Currencies
+      </div>
+    </div>
+  </_default>
+</div>
+`;

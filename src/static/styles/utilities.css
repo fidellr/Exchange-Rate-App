@@ -1,0 +1,237 @@
+.u-fontSize12 {
+  font-size: 12px !important;
+}
+.u-fontSize14 {
+  font-size: 14px !important;
+}
+.u-fontSize16 {
+  font-size: 16px !important;
+}
+.u-fontWeight7 {
+  font-weight: 700 !important;
+}
+
+.u-zIndex7 {
+  z-index: 700 !important;
+}
+.u-fixed {
+  position: fixed !important;
+}
+.u-absolute {
+  position: absolute !important;
+}
+.u-relative {
+  position: relative !important;
+}
+
+.u-top0 {
+  top: 0 !important;
+}
+.u-bottom0 {
+  bottom: 0 !important;
+}
+.u-left0 {
+  left: 0 !important;
+}
+.u-right0 {
+  right: 0 !important;
+}
+
+.u-floatLeft {
+  float: left !important;
+}
+.u-floatRight {
+  float: right !important;
+}
+
+.u-backgroundColorGrayBlur {
+  background-color: rgba(165,165,165,0.27) !important;
+}
+.u-backgroundColorGray {
+  background-color: #fafafa;
+}
+.u-backgroundColorWhite {
+  background-color: white !important;
+}
+.u-backgroundSizeCover {
+  background-size: cover !important;
+}
+.u-backgroundNoRepeat {
+  background-repeat: no-repeat !important;
+}
+
+.u-borderBottomColorBlack {
+  border-bottom: 1px solid  #424242 !important;
+}
+.u-borderBottomColorGray {
+  border-bottom: 1px solid  #bebebe !important;
+}
+.u-border1 {
+  border: 1px !important;
+}
+
+.u-marginCentering {
+  margin: 0 auto !important;
+}
+.u-marginAuto {
+  margin: auto !important;
+}
+.u-margin0 {
+  margin: 0 !important;
+}
+.u-margin16 {
+  margin: 16px !important;
+}
+.u-marginVertical4 {
+  margin-top: 4px !important;
+  margin-bottom: 4px !important;
+}
+.u-marginTop6 {
+  margin-top: 6px !important;
+}
+.u-marginTop16 {
+  margin-top: 16px !important;
+}
+.u-marginBottom0 {
+  margin-bottom: 0 !important;
+}
+.u-marginBottom10 {
+  margin-bottom: 10px !important;
+}
+.u-marginBottom16 {
+  margin-bottom: 16px !important;
+}
+.u-marginHorizontal16 {
+  margin-right: 16px !important;
+  margin-left: 16px !important;
+}
+.u-marginRight16 {
+  margin-right: 16px !important;
+}
+.u-marginLeft16 {
+  margin-left: 16px !important;
+}
+
+.u-padding4 {
+  padding: 4px !important;
+}
+.u-padding10 {
+  padding: 10px !important;
+}
+.u-padding14 {
+  padding: 14px !important;
+}
+.u-padding16 {
+  padding: 16px !important;
+}
+.u-paddingVertical14 {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+.u-paddingTop2 {
+  padding-top: 2px !important;
+}
+.u-paddingTop90 {
+  padding-top: 90px !important;
+}
+.u-paddingBottom4 {
+  padding-bottom: 4px !important;
+}
+.u-paddingBottom10 {
+  padding-bottom: 10px !important;
+}
+.u-paddingHorizontal16 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+.u-paddingHorizontal4 {
+  padding-left: 4px !important;
+  padding-right: 4px !important;
+}
+.u-paddingLeft10 {
+  padding-left: 10px !important;
+}
+.u-paddingLeft16 {
+  padding-left: 16px !important;
+}
+
+.u-flex {
+  display: flex !important;
+}
+.u-justifyContentCenter {
+  justify-content: center !important;
+}
+.u-justifyContentSpaceBetween {
+  justify-content: space-between !important;
+}
+
+.u-border1 {
+  border: 1px solid !important;
+}
+.u-borderVerticalBlack {
+  border-top: 1px solid #424242 !important;
+  border-bottom: 1px solid #424242 !important;
+}
+.u-borderColorGray {
+  border-color: #bebebe !important;
+}
+.u-borderLeftColorGray1 {
+  border-left: 1px solid #bebebe !important;
+}
+.u-borderLeftColorBlack1 {
+  border-left: 1px solid #424242 !important;
+}
+.u-borderRadius2 {
+  border-radius: 2px !important;
+}
+.u-borderNone {
+  border: none !important;
+}
+
+.u-fontSize14 {
+  font-size: 14px !important;
+}
+
+.u-outlineNone {
+  outline: none !important;
+}
+
+.u-textAlignRight {
+  text-align: right !important;
+}
+
+.u-boxShadowTop {
+  box-shadow: 0 -2px 6px 0 rgba(0, 0, 0, 0.05), 0 -4px 4px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.u-boxShadowBottom {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.u-sizeFull {
+  width: 100% !important;
+  height: 100% !important;
+}
+.u-sizeFullWidth {
+  width: 100% !important;
+}
+.u-width330 {
+  width: 330px !important;
+}
+.u-sizeFullHeight {
+  height: 100% !important;
+}
+.u-size24 {
+  height: 24px !important;
+  width: 24px !important;
+}
+.u-width50 {
+  width: 50px !important;
+}
+
+.u-overflowYScroll {
+  overflow-y: scroll !important;
+}
+
+.u-cursorPointer {
+  cursor: pointer !important;
+}

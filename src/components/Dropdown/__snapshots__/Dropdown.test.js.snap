@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should render 3 dropdown items 1`] = `
+<div
+  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1"
+>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
+    key="dropdownItem-SGD"
+    onClick={[Function]}
+  >
+    SGD
+  </div>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
+    key="dropdownItem-PLN"
+    onClick={[Function]}
+  >
+    PLN
+  </div>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4"
+    key="dropdownItem-RUB"
+    onClick={[Function]}
+  >
+    RUB
+  </div>
+</div>
+`;
+
+exports[`Dropdown should render dropdown item in gray color for the selectedItem 1`] = `
+<div
+  className="dropdown-container u-boxShadowBottom u-marginHorizontal16 u-borderRadius2 u-borderColorGray u-border1"
+>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
+    key="dropdownItem-SGD"
+    onClick={[Function]}
+  >
+    SGD
+  </div>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4 u-backgroundColorGrayBlur u-borderBottomColorGray"
+    key="dropdownItem-PLN"
+    onClick={[Function]}
+  >
+    PLN
+  </div>
+  <div
+    className="dropdown-item u-cursorPointer u-padding4"
+    key="dropdownItem-RUB"
+    onClick={[Function]}
+  >
+    RUB
+  </div>
+</div>
+`;
