@@ -1,29 +1,29 @@
-#Exchange Rate React App
+# Exchange Rate React App
 
-##Installation
+## Installation
 
 To run the test:
 1. yarn or npm install
 2. yarn test or npm run test
 
-Development:
+### Development:
 1. yarn or npm install
 2. yarn start or npm run start
 
-Production:
+### Production:
 1. yarn or npm install
 2. yarn build or npm run build
 3. yarn add global serve or npm install -g serve (if you don't have serve)
 4. serve -s build
 
-##Build docker image
+### Build docker image
 docker build . -t exchange_rate_app
 
-##Run docker container
+### Run docker container
 docker run -p 8000:80 exchange_rate_app and Navigate to http://localhost:8000/
 
 
-##Structure and treatment
+## Structure and treatment
 1. `./src/components` every reusable components that frequently used by many usecase will be placed here.
 2. `./src/screens` treat it as the place for the container that wrap their components.
 3. `./src/screens/PageName/index.js` any api call that returned data and used by its (Page) contents, will be placed here (treat it as the container of its content). it can be stateful or stateless component.
