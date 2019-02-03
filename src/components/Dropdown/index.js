@@ -1,6 +1,6 @@
 import React from 'react';
 import cls from 'classnames';
-import { isUnique } from '../../utils/helpers/unique';
+import { isExist } from '../../utils/helpers/unique';
 
 
 class Dropdown extends React.Component {
@@ -34,7 +34,7 @@ class Dropdown extends React.Component {
               key={`dropdownItem-${item.rate_name}`}
               onClick={() => onClick(item)}
               className={cls('dropdown-item u-cursorPointer u-padding4', {
-                'u-backgroundColorGrayBlur': (selectedItems && isUnique(selectedItems, 'rate_name', item.rate_name)) === true,
+                'u-backgroundColorGrayBlur': (selectedItems && isExist(selectedItems, 'rate_name', item.rate_name)) === true,
                 'u-borderBottomColorGray': index !== data.length - 1,
               })}
             >

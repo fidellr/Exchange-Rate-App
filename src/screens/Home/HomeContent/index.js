@@ -6,7 +6,7 @@ import RateCard from '../../../components/RateCard';
 import AddIcon from '../../../static/icons/add.svg';
 import Card from '../../../components/Card';
 import Dropdown from '../../../components/Dropdown';
-import { isUnique } from '../../../utils/helpers/unique';
+import { isExist } from '../../../utils/helpers/unique';
 
 class HomeContent extends Component {
   state = {
@@ -37,7 +37,7 @@ class HomeContent extends Component {
 
   handleSubmit = () => {
     const { selectedRates, selectedRate } = this.state;
-    if (isUnique(selectedRates, 'rate_name', selectedRate.rate_name)) return;
+    if (isExist(selectedRates, 'rate_name', selectedRate.rate_name)) return;
     this.setState({ selectedRates: [...selectedRates, selectedRate], selectedRate: null });
   }
 
