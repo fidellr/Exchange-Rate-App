@@ -44,7 +44,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
   >
     <div
       className="u-border1 u-borderColorGray u-borderRadius2"
-      key="rateCard-SGD-0.8786105735941141-0"
+      key="rateCard-SGD"
     >
       <_default
         baseCurrency="USD"
@@ -56,7 +56,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
     </div>
     <div
       className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
-      key="rateCard-PLN-0.9482590948689531-1"
+      key="rateCard-PLN"
     >
       <_default
         baseCurrency="USD"
@@ -68,7 +68,7 @@ exports[`HomeContent should fill selectedRates as the default data that passed f
     </div>
     <div
       className="u-border1 u-borderColorGray u-borderRadius2 u-marginTop16"
-      key="rateCard-RUB-0.522197074232398-2"
+      key="rateCard-RUB"
     >
       <_default
         baseCurrency="USD"

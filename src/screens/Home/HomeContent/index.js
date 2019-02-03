@@ -75,7 +75,7 @@ class HomeContent extends Component {
     const { baseCurrency } = this.props;
     return rates && rates.map((item, index) => (
       <div
-        key={`rateCard-${item.rate_name}-${Math.random()}-${index}`}
+        key={`rateCard-${item.rate_name}`}
         className={cls('u-border1 u-borderColorGray u-borderRadius2', {
           'u-marginTop16': index !== 0,
         })}
